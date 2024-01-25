@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Elements/Stylesheets/BlockItem.uss?fileID=7433441132597879392&amp;guid=3dc1b6a0c04e5493696c65500307c1e2&amp;type=3#BlockItem" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="BlockItem" class="blockItem" style="flex-grow: 1;">
+            <ui:VisualElement class="itemImage" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

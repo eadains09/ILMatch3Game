@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="BlockSpace" src="project://database/Assets/UI%20Elements/UI/GameGrid/BlockSpace.uxml?fileID=9197481963319205126&amp;guid=04a9de0191f844b18ade38313b56f392&amp;type=3#BlockSpace" />
+    <ui:VisualElement name="Grid" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap; height: 450px; width: 450px; max-height: 450px; max-width: 450px;">
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+        <ui:Instance template="BlockSpace" name="BlockSpace" />
+    </ui:VisualElement>
+</ui:UXML>

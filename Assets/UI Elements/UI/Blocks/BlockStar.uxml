@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Elements/Stylesheets/BlockItem.uss?fileID=7433441132597879392&amp;guid=3dc1b6a0c04e5493696c65500307c1e2&amp;type=3#BlockItem" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="BlockItem" class="blockItem">
+            <ui:VisualElement class="itemImage" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/vecteezy_star.png?fileID=2800000&amp;guid=4195d279a2b404d2ba65cce2ca160e21&amp;type=3#vecteezy_star&apos;); -unity-background-image-tint-color: rgb(60, 68, 73);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

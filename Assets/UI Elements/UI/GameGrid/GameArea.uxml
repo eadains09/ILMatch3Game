@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Template name="Grid" src="project://database/Assets/UIElements/Grid.uxml?fileID=9197481963319205126&amp;guid=5fded19ee743f43edbfa1ca9ae97f786&amp;type=3#Grid" />
+    <ui:VisualElement name="GameArea" style="flex-grow: 1; align-items: center; justify-content: center; margin-right: 0; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+        <ui:Instance template="Grid" name="Grid" />
+    </ui:VisualElement>
+</ui:UXML>

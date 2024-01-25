@@ -1,0 +1,14 @@
+.hudElement {
+    flex-grow: 1;
+    align-self: flex-end;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100px;
+    min-width: 100px;
+    flex-direction: row;
+    color: rgb(18, 41, 70);
+    font-size: 16px;
+}

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Elements/Stylesheets/Popup.uss?fileID=7433441132597879392&amp;guid=06aaa67f2413e425ca96d30e4ebc3f61&amp;type=3#Popup" />
+    <ui:VisualElement name="Popup" class="popupFrame" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="How To Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" class="title" />
+        <ui:VisualElement name="Body" style="flex-grow: 1;">
+            <ui:GroupBox>
+                <ui:Label tabindex="-1" text="Swap blocks by clicking on one block and dragging mouse to neighboring block" parse-escape-sequences="true" display-tooltip-when-elided="true" class="bodyText" />
+                <ui:Label tabindex="-1" text="The goal is to group 3 or more of the same symbols together" parse-escape-sequences="true" display-tooltip-when-elided="true" class="bodyText" />
+                <ui:Label tabindex="-1" text="Swaps and match groups can only be made horizontally or vertically" parse-escape-sequences="true" display-tooltip-when-elided="true" class="bodyText" />
+                <ui:Label tabindex="-1" text="The `Restart Game` button will reset the game grid and the player score back to the beginning" parse-escape-sequences="true" display-tooltip-when-elided="true" class="bodyText" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+        <ui:Button text="Close" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Close" class="actionButton" />
+    </ui:VisualElement>
+</ui:UXML>

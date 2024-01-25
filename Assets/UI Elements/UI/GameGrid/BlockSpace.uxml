@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="BlockSpace" style="flex-grow: 1; width: 75px; height: 75px; max-width: 75px; max-height: 75px; min-width: 75px; min-height: 75px; border-left-color: rgb(60, 68, 73); border-right-color: rgb(60, 68, 73); border-top-color: rgb(60, 68, 73); border-bottom-color: rgb(60, 68, 73); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; justify-content: center; align-self: center; align-items: center; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:VisualElement name="BlockContainer" style="flex-grow: 1; min-width: 75px; min-height: 75px;" />
+    </ui:VisualElement>
+</ui:UXML>

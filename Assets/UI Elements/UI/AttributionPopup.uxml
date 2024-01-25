@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Elements/Stylesheets/Popup.uss?fileID=7433441132597879392&amp;guid=06aaa67f2413e425ca96d30e4ebc3f61&amp;type=3#Popup" />
+    <ui:VisualElement name="Popup" class="popupFrame">
+        <ui:Label tabindex="-1" text="Attributions" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" class="title" />
+        <ui:VisualElement name="Body" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Vecteezy Sprites" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:GroupBox style="padding-left: 10px; font-size: 12px;">
+                <ui:Label tabindex="-1" text="https://www.vecteezy.com/free-png/star" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                <ui:Label tabindex="-1" text="https://www.vecteezy.com/free-png/heart" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                <ui:Label tabindex="-1" text="https://www.vecteezy.com/free-png/triangle" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                <ui:Label tabindex="-1" text="https://www.vecteezy.com/free-png/diamond-shape" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                <ui:Label tabindex="-1" text="&quot;https://www.vecteezy.com/free-png/circle" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                <ui:Label tabindex="-1" text="&quot;https://www.vecteezy.com/free-png/square" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+        <ui:Button text="Close" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Close" class="actionButton" />
+    </ui:VisualElement>
+</ui:UXML>

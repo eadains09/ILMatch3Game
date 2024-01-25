@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="GameContainer" src="project://database/Assets/UI%20Elements/UI/GameGrid/GameArea.uxml?fileID=9197481963319205126&amp;guid=30b37390fb68347d39bffb755e340f64&amp;type=3#GameArea" />
+    <Style src="project://database/Assets/UI%20Elements/Stylesheets/HUDElement.uss?fileID=7433441132597879392&amp;guid=7ff6c2c0c1dce4bcab2d5aa71aea554b&amp;type=3#HUDElement" />
+    <Style src="project://database/Assets/UI%20Elements/Stylesheets/Match3ProgressBar.uss?fileID=7433441132597879392&amp;guid=df583070c9eb648cfb56f3a3f7201eb6&amp;type=3#Match3ProgressBar" />
+    <Style src="project://database/Assets/UI%20Elements/Stylesheets/BottomRow.uss?fileID=7433441132597879392&amp;guid=8699974247c144658ad471582467ff12&amp;type=3#BottomRow" />
+    <ui:VisualElement name="GameplaySceneContainer" style="flex-grow: 1; background-color: rgb(173, 185, 184); justify-content: space-between; padding-bottom: 20px;">
+        <ui:VisualElement name="HUDContainer" style="flex-grow: 1; flex-direction: row; height: 50px; max-height: 100px; min-height: 50px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; background-color: rgb(15, 111, 132); border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; border-top-width: 0; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(48, 47, 47); border-right-color: rgb(48, 47, 47); border-top-color: rgb(48, 47, 47); border-bottom-color: rgb(48, 47, 47); justify-content: flex-start; -unity-text-outline-color: rgba(18, 41, 70, 0);">
+            <ui:VisualElement name="Timer" class="hudElement" style="flex-grow: 1; justify-content: flex-start;">
+                <ui:Label tabindex="-1" text="1:59" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TimerLabel" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Level" class="hudElement" style="flex-grow: 1; flex-direction: row; font-size: 22px; -unity-text-align: middle-left; -unity-font-style: bold-and-italic; border-bottom-color: rgb(43, 43, 43); border-bottom-width: 1px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
+                <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LevelLabel" style="-unity-text-align: upper-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PointsProgressBarContainer" class="hudElement pointsProgressBar_progress pointsProgressBar_background" style="flex-grow: 1; flex-direction: row; justify-content: flex-end;">
+                <ui:ProgressBar value="50" name="PointsProgressBar" style="flex-grow: 0; width: 80px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Instance template="GameContainer" name="GameContainer" />
+        <ui:VisualElement name="BottomRowContainer" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; height: 50px; max-height: 100px; min-height: 50px; justify-content: space-around;">
+            <ui:Button text="See Attributions" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AttributionButton" class="button" />
+            <ui:Button text="Restart Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RestartGameButton" class="button" />
+            <ui:Button text="Instructions" parse-escape-sequences="true" display-tooltip-when-elided="true" name="InstructionsButton" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,14 @@
+.itemImage {
+    -unity-background-scale-mode: scale-to-fit;
+    flex-grow: 1;
+}
+
+.blockItem {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    min-width: 50px;
+    min-height: 50px;
+    flex-grow: 1;
+}

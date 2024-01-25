@@ -1,0 +1,42 @@
+.popupFrame {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    flex-grow: 1;
+    background-color: rgb(212, 178, 158);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+    align-self: center;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+}
+
+.title {
+    -unity-text-align: middle-center;
+    font-size: 24px;
+    -unity-font-style: bold;
+    color: rgb(60, 68, 73);
+}
+
+.actionButton {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    align-self: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(123, 133, 140);
+}
+
+.bodyText {
+    flex-shrink: 0;
+    white-space: normal;
+}

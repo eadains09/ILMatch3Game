@@ -1,0 +1,24 @@
+.pointsProgressBar_progress .unity-progress-bar__progress {
+    background-color: rgb(18, 41, 70);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    flex-direction: column;
+}
+
+.pointsProgressBar_background .unity-progress-bar__background {
+    background-color: rgb(60, 68, 73);
+    border-left-color: rgb(18, 41, 70);
+    border-right-color: rgb(18, 41, 70);
+    border-top-color: rgb(18, 41, 70);
+    border-bottom-color: rgb(18, 41, 70);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
